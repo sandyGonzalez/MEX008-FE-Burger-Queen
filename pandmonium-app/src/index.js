@@ -1,12 +1,11 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './styles/index.css';
-// import App from './lib/App.js';
 import * as serviceWorker from './serviceWorker.js';
-import Login from './lib/Login.js';
-// ReactDOM.render(<App />, document.getElementById('root'));
-ReactDOM.render(<Login />, document.getElementById('root'));
+import Login from './components/login/Login.js';
+import AllTables from './components/table/tables'
 
+ReactDOM.render(<AllTables />, document.getElementById('root'));
 
 // If you want your app to work offline and load faster, you can change
 // unregister() to register() below. Note this comes with some pitfalls.
