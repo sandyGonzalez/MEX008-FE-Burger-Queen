@@ -1,5 +1,6 @@
 {
   "projects": {
-    "default": "pan-d-monium-app"
+    "default": "pan-d-monium-app",
+    "pan-d-monium-app": "pan-d-monium-app"
   }
 }
