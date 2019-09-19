@@ -1,0 +1,13 @@
+div.allTables {
+    display: flex;
+    
+    div.tablesOrder{
+        display: flex;
+        div {
+            width: 2rem;
+            height: 2rem;
+            border: 1px solid black;
+            margin: 1rem;
+        }
+    } 
+}
