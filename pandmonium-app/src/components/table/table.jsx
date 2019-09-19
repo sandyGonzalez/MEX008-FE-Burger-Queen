@@ -8,6 +8,7 @@ const Table = ({ numbers }) => {
 
 const TableList = ({ list }) => {
     return list.map(table => <Table numbers={table} />);
+    
 }
 
 
