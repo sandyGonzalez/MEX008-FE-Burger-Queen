@@ -3,7 +3,7 @@ import ReactDOM from 'react-dom';
 import './styles/index.css';
 import * as serviceWorker from './serviceWorker.js';
 import Login from './components/login/Login.js';
-import Toolbar from './components/toolbar/Toolbar.js';
+import Toolbar from './components/sidebar/toolbar/Toolbar.js';
 
 // ReactDOM.render(<Login />, document.getElementById('root'));
 ReactDOM.render(<Toolbar />, document.getElementById('root'));
