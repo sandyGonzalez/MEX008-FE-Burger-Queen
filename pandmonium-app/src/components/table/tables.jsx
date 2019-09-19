@@ -1,4 +1,5 @@
 import React from 'react';
+import HelpButton from './helpButton/HelpButton'
 import TableList from './table';
 
 function AllTables(){
@@ -28,6 +29,7 @@ function AllTables(){
                 <TableList
                     list = {[11,12,13,14]}
                 />
+                <HelpButton />
             </div>
             
 
