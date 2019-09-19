@@ -3,10 +3,8 @@ import ReactDOM from 'react-dom';
 import './styles/index.css';
 import * as serviceWorker from './serviceWorker.js';
 import Login from './components/login/Login.js';
-import Toolbar from './components/sidebar/toolbar/Toolbar.js';
 
-// ReactDOM.render(<Login />, document.getElementById('root'));
-ReactDOM.render(<Toolbar />, document.getElementById('root'));
+ReactDOM.render(<Login />, document.getElementById('root'));
 
 
 // If you want your app to work offline and load faster, you can change
@@ -15,4 +13,6 @@ ReactDOM.render(<Toolbar />, document.getElementById('root'));
 serviceWorker.unregister();
 
 
+// import Toolbar from './components/sidebar/toolbar/Toolbar.js';
+// ReactDOM.render(<Toolbar />, document.getElementById('root'));
 
