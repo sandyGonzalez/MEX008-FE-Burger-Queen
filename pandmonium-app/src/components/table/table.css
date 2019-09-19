@@ -1,0 +1,14 @@
+div.allTables {
+  display: flex;
+}
+div.allTables div.tablesOrder {
+  display: flex;
+}
+div.allTables div.tablesOrder div {
+  width: 2rem;
+  height: 2rem;
+  border: 1px solid black;
+  margin: 1rem;
+}
+
+/*# sourceMappingURL=table.css.map */

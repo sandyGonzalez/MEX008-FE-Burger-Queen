@@ -1,8 +1,9 @@
 import React from 'react';
+import TableStyles from './table.css'
 
 const Table = ({ numbers }) => {
         return ( 
-            <div className="table">{numbers}</div>
+            <div style={TableStyles}>{numbers}</div>
         )
 };
 
