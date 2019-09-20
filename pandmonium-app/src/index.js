@@ -2,10 +2,11 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import './styles/index.css';
 import * as serviceWorker from './serviceWorker.js';
-//import Login from './components/login/Login.js';
-import AllTables from './components/table/tables'
+import SelectTable from './views/selectTable.jsx';
 
-ReactDOM.render(<AllTables />, document.getElementById('root'));
+
+
+ReactDOM.render(<SelectTable />, document.getElementById('root'));
 
 
 // If you want your app to work offline and load faster, you can change
