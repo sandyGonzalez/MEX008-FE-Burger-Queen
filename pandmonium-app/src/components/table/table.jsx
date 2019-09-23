@@ -1,5 +1,5 @@
 import React from 'react';
-import TableStyles from './table.css'
+import TableStyles from './table.scss'
 
 const Table = ({ numbers }) => {
         return ( 
