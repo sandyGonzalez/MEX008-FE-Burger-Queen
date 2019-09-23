@@ -2,6 +2,8 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import './styles/index.css';
 import * as serviceWorker from './serviceWorker.js';
+//import { render } from 'react-dom';
+//import { BrowserRouter as Router } from 'react-router-dom';
 //import SelectTable from './views/selectTable.jsx';
 import HamburgersMenu from './views/hamburgers'
 
