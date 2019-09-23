@@ -1,34 +1,29 @@
-// Dependencies
-import React, { Component } from 'react';
-import PropTypes from 'prop-types';
+import React, {Component} from 'react';
 
-// Components
-import Header from './Global/Header';
-import Content from './Global/Content';
-import Footer from './Global/Footer';
+//Components/ Views
+import Hamburgers from '../views/Hamburgers';
+import Menu from './generalMenu/generalMenu.jsx'
+//import Page404 from './components/Page404'
 
-// Data
-import items from '../data/menu';
+// Home
+import Tables from '../views/selectTable';
 
+import { BrowserRouter as Router, Switch, Route} from 'react-router-dom';
+
+//Component
 class App extends Component {
-  static propTypes = {
-    children: PropTypes.object.isRequired
-  };
-
-  render() {
-    const { children } = this.props;
-
-    return (
-      <div className="App">
-        <Header
-          title="Codejobs"
-          items={items}
-        />
-        <Content body={children} />
-        <Footer />
-      </div>
-    );
-  }
+    render(){
+        return(
+            <Router basename={window.location.pathname || ''}>
+                <Switch>
+                    <Route exact path='/' component={Menu} />
+                    <Route exact path='/Menu' component={Tables} />
+                    <Route exact path='/Hamburgers' component={Hamburgers} />                    
+                </Switch>
+            </Router>
+        )
+    };
 }
 
 export default App;
+
