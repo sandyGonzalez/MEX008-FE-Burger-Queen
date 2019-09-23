@@ -1,6 +1,6 @@
 import React from 'react';
 import './BurgerStyle.css';
-import hamburger from './img/hamburger.png';
+import hamburger from '../../img/hamburger.png';
 
 //con props
 function BurgerName(props){ //componente 1
