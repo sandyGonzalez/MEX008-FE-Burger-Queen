@@ -1,18 +1,36 @@
 import React from 'react';
+/* import HelpButton from './helpButton/HelpButton' */
 import TableList from './table';
+import '../table/table.scss'
 
 function AllTables(){
-    return (
-        <div className = "AllTables">
-          <h1>Hello CodeSandbox</h1>
-          <h2>Start editing to see some magic happen!</h2>
-          <TableList
-           list = {[1,2,3,4,5,6,7,8,9,10,11,12,13,14]}
-           />
-          </div>
+    return(
+        <div className = "allTables">
+        <div className = "tablesOrder">
+            <TableList number ="3"/>
+            <TableList number ="4"/>
+       </div>
+        <div className = "tablesOrder">
+            <TableList number = "6"/>
+            <TableList number = "7"/>
+            <TableList number = "8"/>
+            <TableList number = "9"/>
+            <TableList number = "10"/>
+         </div>
+         <div className = "tablesOrder">
+            <TableList number = "1"/>
+            <TableList number = "2"/>
+       </div>
+       <div className = "tablesOrder">
+            <TableList number ="1"/>
+       </div>
+       <div className = "tablesOrder">
+            <TableList number = "11"/>
+            <TableList number = "12"/>
+            <TableList number = "13"/>
+            <TableList number = "14"/>
+           </div>
+           </div>
     )
 }
-
-
-const RootElement = document.getElementById("root");
-ReactDOM.render(<AllTables/>,RootElement);
+export default AllTables;
