@@ -1,9 +1,10 @@
 import React from 'react';
 import HelpButton from './helpButton/HelpButton'
 import TableList from './table';
+import style from '../table/table.scss'
 
 function AllTables(){
-    return (
+    return ( 
         <div className = "allTables">
             <div className = "tablesOrder">
                 <TableList
@@ -34,7 +35,9 @@ function AllTables(){
             
 
         </div>
+
     )
 }
+    
 
 export default AllTables;
