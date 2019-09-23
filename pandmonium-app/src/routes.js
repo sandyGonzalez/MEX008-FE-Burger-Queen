@@ -3,28 +3,23 @@ import React from 'react';
 import { Route, Switch } from 'react-router-dom';
 
 // Components
-import App from './components/App';
-import About from './components/About';
-import Contact from './components/Contact';
-import Hamburgers from './components/Hamburgers';
-import Hamburger from './components/Hamburger';
-import Page404 from './components/Page404';
 
-// Container
+import App from './components/App'
+import Hamburgers from './views/Hamburgers';
+import Page404 from './components/Page404'
+
+// Home
 import Home from './views/selectTable';
+
 // import Library from './containers/Library';
 
 const AppRoutes = () =>
   <App>
     <Switch>
-      <Route exact path="/about" component={About} />
-      <Route exact path="/contact" component={Contact} />
-      {/* <Route exact path="/library" component={Library} /> */}
-      {/* <Route exact path="/library/:id" component={Library} /> */}
       <Route exact path="/hamburgers" component={Hamburgers} />
-      <Route path="/hamburgers/:id" component={Hamburger} />
       <Route exact path="/" component={Home} />
       <Route component={Page404} />
+      {/* <Route path="/hamburgers/:id" component={Hamburger} /> */}
     </Switch>
   </App>;
 
