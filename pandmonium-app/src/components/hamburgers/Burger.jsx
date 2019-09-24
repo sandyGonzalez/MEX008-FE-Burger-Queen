@@ -1,5 +1,5 @@
 import React from 'react';
-import './BurgerStyle.scss';
+import './FoodStyle.scss';
 import hamburger from '../../img/hamburger.png';
 
 //con props
@@ -7,8 +7,8 @@ function BurgerName(props){ //componente 1
   return (
 
     <div className="cuadro">
-      <img className="IconBurger" alt={props.name}  src= {hamburger}/>
-    <p className="nameHamburger"> {props.name}</p>
+      <img className="IconFood" alt={props.name}  src= {hamburger}/>
+    <p className="nameFood"> {props.name}</p>
     </div>
 
   )

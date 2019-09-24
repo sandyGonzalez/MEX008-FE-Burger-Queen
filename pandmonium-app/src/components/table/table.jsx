@@ -1,5 +1,6 @@
 import React from 'react';
-import '../table/table.scss'
+import '../table/table.scss';
+
 
 class TableList extends React.Component{
    state ={
