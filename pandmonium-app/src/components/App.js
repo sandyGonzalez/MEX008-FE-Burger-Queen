@@ -3,7 +3,7 @@ import React, {Component} from 'react';
 //Components/ Views
 import HistorialDePago from '../views/HistorialDePago.jsx';
 import Extras from '../views/Extras.jsx';
-import Hamburgers from '../views/Hamburgers'
+import Hamburgers from '../views/subviews/hamburgers'
 
 //Subroutes
 import Menu from './generalMenu/generalMenu.jsx';
