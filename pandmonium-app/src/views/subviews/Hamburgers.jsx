@@ -1,6 +1,6 @@
 import React from 'react';
-import Burgers from '../components/hamburgers/Burgers'
-import Toolbar from '../components/sidebar/toolbar/Toolbar';
+import Burgers from '../../components/generalMenu/menus/hamburgers/Burgers';
+import Toolbar from '../../components/sidebar/toolbar/Toolbar';
 
 class BurgersMenu extends React.Component {
     render (){
