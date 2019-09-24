@@ -3,7 +3,7 @@ import React, {Component} from 'react';
 //Components/ Views
 import HistorialDePago from '../views/HistorialDePago.jsx';
 import Extras from '../views/Extras.jsx';
-import Hamburgers from '../views/subviews/hamburgers'
+import Hamburgers from '../views/subviews/Hamburgers'
 
 //Subroutes
 import Menu from './generalMenu/generalMenu.jsx';
@@ -27,7 +27,7 @@ class App extends Component {
                     <Route exact path='/Menu' component={Menu} />
                     <Route exact path='/Extras' component={Extras} />
                     <Route exact path='/Hamburguesas' component={Hamburgers} />  
-                    <Route exact path='/HistorialDePago' component={HistorialDePago} />                   
+                    <Route exact path='/HistorialDePago' component={HistorialDePago} />                                     
                 </Switch>
             </Router>
         )
