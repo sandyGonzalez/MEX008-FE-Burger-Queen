@@ -1,28 +1,20 @@
 import React from 'react';
 import '../FoodStyle.scss';
 import hamburger from '../../img/hamburger.png';
+import BurgerName from '../food'
 
 //con props
-function BurgerName(props){ //componente 1
-  return (
 
-    <div className="cuadro">
-      <img className="IconFood" alt={props.name}  src= {hamburger}/>
-    <p className="nameFood"> {props.name}</p>
-    </div>
-
-  )
-}
 
 function Burger() { //componente principal
   return (
     <div className= "container-food">
-      <BurgerName name="Gula"/>
-      <BurgerName name="Malicia" />
-      <BurgerName name="Soberbia" />
-      <BurgerName name="Alma en pena" />
-      <BurgerName name="Encarnación" />
-      <BurgerName name="Banana limbo" />
+      <BurgerName name="Gula"icon= {hamburger} />
+      <BurgerName name="Malicia" icon={hamburger}/>
+      <BurgerName name="Soberbia" icon={hamburger}/>
+      <BurgerName name="Alma en pena" icon={hamburger}/>
+      <BurgerName name="Encarnación" icon={hamburger}/>
+      <BurgerName name="Banana limbo" icon={hamburger}/>
 
     </div>
   );
