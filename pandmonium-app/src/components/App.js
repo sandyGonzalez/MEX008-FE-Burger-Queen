@@ -1,7 +1,7 @@
 import React, {Component} from 'react';
 
 //Components/ Views
-import Hamburgers from '../views/Hamburgers';
+import Hamburgers from '../views/hamburgers';
 import Menu from './generalMenu/generalMenu.jsx'
 //import Page404 from './components/Page404'
 

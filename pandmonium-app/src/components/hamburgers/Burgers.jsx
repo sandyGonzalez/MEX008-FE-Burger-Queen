@@ -3,12 +3,11 @@ import './BurgerStyle.scss';
 import Burger from './Burger';
 
 
-
 function AllBurgers (){
     return (
-        <div className="container col-12"><Burger/></div>
+        <div className="container"><Burger/></div>
     )
 }
 
 
-export default AllBurgers; 
+export default AllBurgers;
