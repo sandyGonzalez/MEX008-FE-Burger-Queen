@@ -33,9 +33,9 @@ class toolbar extends Component {
         <HeaderToolbar  drawerClickHandler={this.drawerToggleClickHandler}/>  
         <SideDrawer show={this.state.sideDrawerOpen}/>
         {backdrop}
-        <main className="main">
+        {/* <main className="main">
          <p>MESAS</p>
-        </main>     
+        </main>      */}
         </div>  
       )
     }

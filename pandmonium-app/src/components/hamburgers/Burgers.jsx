@@ -1,7 +1,6 @@
 import React from 'react';
-import './BurgerStyle.css';
+import './BurgerStyle.scss';
 import Burger from './Burger';
-
 
 
 function AllBurgers (){
@@ -11,4 +10,4 @@ function AllBurgers (){
 }
 
 
-export default AllBurgers; 
+export default AllBurgers;
