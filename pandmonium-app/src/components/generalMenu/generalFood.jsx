@@ -1,5 +1,6 @@
 import React from 'react';
-import './FoodStyle.css';
+import './menus/FoodStyle.css';
+
 
 function Food(props){ //componente 1
     return (
@@ -12,3 +13,4 @@ function Food(props){ //componente 1
 
   export default Food;
 
+  

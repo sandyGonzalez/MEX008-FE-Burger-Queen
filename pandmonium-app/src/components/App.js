@@ -27,7 +27,7 @@ class App extends Component {
                     <Route exact path='/Menu' component={MenuComponent} />
                     <Route exact path='/Extras' component={Extras} />
                     <Route exact path='/Hamburguesas' component={Hamburgers} />  
-                    <Route exact path='/HistorialDePago' component={HistorialDePago} />                   
+                    <Route exact path='/HistorialDePago' component={HistorialDePago} />                                     
                 </Switch>
             </Router>
         )

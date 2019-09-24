@@ -1,16 +1,13 @@
 import React from 'react';
-import {Link} from 'react-router-dom';
+import './menus/FoodStyle.css';
+import Menu from './menu';
 
 
-//con props
-function menuComponent(){ //componente 1
-  return (
-    <div>
-        <button><Link to="/Hamburgers">Holi</Link></button>
-    </div>
-   
-  )
+function AllFood (){
+    return (
+        <div className="container"><Menu/></div>
+    )
 }
 
 
-export default menuComponent;
+export default AllFood;
