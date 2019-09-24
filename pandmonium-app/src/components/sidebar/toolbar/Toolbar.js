@@ -5,7 +5,6 @@ import SideDrawer from '../SideDrawer/SideDrawer.js';
 import HeaderToolbar from './HeaderToolbar.js'
 import Backdrop from '../Backdrop/Backdrop.js'
 
-
 class toolbar extends Component {
   state = {
     sideDrawerOpen: false
