@@ -14,10 +14,10 @@ class TableList extends React.Component{
    render(){
        if(this.state.changeColorGreen){
            return(
-               <button style={{backgroundColor: (this.state.changeColorGreen) ? '#C4C4C4' : "#42FF00"}}
-                onClick={this.changeColor}><Link to="/Menu">{this.props.number}</Link>
-               
-               </button>
+               <Link to="/Menu"><button style={{backgroundColor: (this.state.changeColorGreen) ? '#C4C4C4' : "#42FF00"}}
+               onClick={this.changeColor}>
+              {this.props.number}
+              </button></Link>
            )
        }
        else{
