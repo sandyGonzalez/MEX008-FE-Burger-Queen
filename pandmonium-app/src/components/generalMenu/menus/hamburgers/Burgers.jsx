@@ -1,5 +1,5 @@
 import React from 'react';
-import './FoodStyle.scss';
+import '../FoodStyle.scss';
 import Burger from './Burger';
 
 
