@@ -16,8 +16,8 @@ class App extends Component {
         return(
             <Router basename={window.location.pathname || ''}>
                 <Switch>
-                    <Route exact path='/' component={Menu} />
-                    <Route exact path='/Menu' component={Tables} />
+                    <Route exact path='/' component={Tables} />
+                    <Route exact path='/Menu' component={Menu} />
                     <Route exact path='/Hamburgers' component={Hamburgers} />                    
                 </Switch>
             </Router>
