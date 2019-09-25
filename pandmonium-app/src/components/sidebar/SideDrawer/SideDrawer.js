@@ -13,8 +13,6 @@ const SideDrawer = props => {
          <li><Link to={'/'}>Mesas</Link></li>
          <li><Link to={'/HistorialDePago'}>Historial de Pago</Link></li>
          <li><Link to={'/Extras'}>Extras</Link></li>
-         <li><Link to={'/Hamburguesas'}>Hamburguesas</Link></li>
-         
        </ul>
      </nav>
     );
