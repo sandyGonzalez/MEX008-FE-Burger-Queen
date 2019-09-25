@@ -3,10 +3,6 @@ import React, {Component} from 'react';
 //Components/ Views
 import HistorialDePago from '../views/HistorialDePago.jsx';
 import Extras from '../views/Extras.jsx';
-<<<<<<< HEAD
-import Hamburgers from '../views/Hamburgers.jsx'
-=======
->>>>>>> b7e9dff84c50458dd3c739491c9a5a67336df2f4
 
 //Subroutes
 import MenuComponent from '../views/MenuView';

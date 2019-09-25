@@ -1,6 +1,6 @@
 import React from 'react';
 import '../FoodStyle.scss';
-import Hotdog from './Hotdog';
+import Hotdog from './Hotdog.jsx';
 
 
 function Hotdogs (){
