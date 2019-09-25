@@ -35,11 +35,6 @@ class App extends Component {
                 <Switch>
                     <Route exact path='/' component={Tables} />
                     <Route exact path='/Extras' component={Extras} />
-<<<<<<< HEAD
-                    <Route exact path='/Hamburguesas' component={Hamburgers} />  
-                    <Route exact path='/HistorialDePago' component={HistorialDePago} />  
-                                     
-=======
                     <Route exact path='/HistorialDePago' component={HistorialDePago} />                                     
                     
                     
@@ -50,7 +45,6 @@ class App extends Component {
                     <Route exact path='/Ensaladas' component={Salads} />
                     <Route exact path='/Bebidas' component={Drinks} />
                     <Route exact path='/Postres' component={Desserts} />  
->>>>>>> b7e9dff84c50458dd3c739491c9a5a67336df2f4
                 </Switch>
             </Router>
         )
