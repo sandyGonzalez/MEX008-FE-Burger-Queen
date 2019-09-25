@@ -1,5 +1,4 @@
 import React from 'react';
-
 import Burgers from '../../components/generalMenu/menus/hamburgers/Burgers';
 import Toolbar from '../../components/sidebar/toolbar/Toolbar';
 

@@ -5,7 +5,9 @@ import Menu from './menu';
 
 function AllFood (){
     return (
-        <div className="container"><Menu/></div>
+        <div className="container">
+            <Menu/>
+        </div>
     )
 }
 

@@ -3,11 +3,11 @@ import '../FoodStyle.scss';
 import Burger from './Burger';
 
 
-function AllBurgers (){
+function Burgers (){
     return (
         <div className="container"><Burger/></div>
     )
 }
 
 
-export default AllBurgers;
+export default Burgers;
