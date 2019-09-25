@@ -6,7 +6,7 @@ import {Link} from 'react-router-dom';
 function menuComponent(){ //componente 1
   return (
     <div>
-        <button><Link to="/Hamburgers">Holi</Link></button>
+        <button><Link to="/Hamburgers">Menú principal</Link></button>
     </div>
    
   )
