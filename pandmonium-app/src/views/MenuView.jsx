@@ -1,16 +1,19 @@
 import React from 'react';
-import Burgers from '../components/generalMenu/menus/hamburgers/Burgers'
+import Menu from '../components/generalMenu/generalMenu';
 import Toolbar from '../components/sidebar/toolbar/Toolbar';
 
-class BurgersMenu extends React.Component {
+
+
+
+class ViewMenu extends React.Component {
     render (){
         return (
         <div>
             <Toolbar />
-            <Burgers />
+            <Menu />
         </div>
         );
     
     }
     }
-    export default BurgersMenu;
+    export default ViewMenu;
