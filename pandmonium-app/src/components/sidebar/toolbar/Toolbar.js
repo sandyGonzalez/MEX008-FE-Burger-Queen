@@ -1,10 +1,9 @@
 import React, {Component} from 'react';
 // import './SideDrawer/DrawerToggleButton';
-import './toolbar.css';
+import './toolbar.scss';
 import SideDrawer from '../SideDrawer/SideDrawer.js';
 import HeaderToolbar from './HeaderToolbar.js'
 import Backdrop from '../Backdrop/Backdrop.js'
-
 
 class toolbar extends Component {
   state = {
@@ -33,9 +32,9 @@ class toolbar extends Component {
         <HeaderToolbar  drawerClickHandler={this.drawerToggleClickHandler}/>  
         <SideDrawer show={this.state.sideDrawerOpen}/>
         {backdrop}
-        <main className="main">
-         <p>This is a page</p>
-        </main>     
+        {/* <main className="main">
+         <p>MESAS</p>
+        </main>      */}
         </div>  
       )
     }
