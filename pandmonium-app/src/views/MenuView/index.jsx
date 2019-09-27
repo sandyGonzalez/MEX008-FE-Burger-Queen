@@ -1,5 +1,6 @@
 import React, {Component} from 'react';
 import IconMenu from '../../components/Menu/icon.json';
+import Sidebar from '../../components/sidebar/Sidebar';
 import Menu from '../../components/Menu/index';
 console.log(IconMenu);
 
@@ -9,10 +10,13 @@ class MenuView extends Component {
     }
     render(){
         return(
-            <section className="container">
+            <section>
+            <Sidebar/>
+            <main className="container">
                 <div className="container-food">
                     <Menu icons={this.state.icon}/>
                 </div>
+            </main>
             </section>
         );
     }
