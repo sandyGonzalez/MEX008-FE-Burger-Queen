@@ -11,7 +11,7 @@ class MenuView extends Component {
         return(
             <section className="container">
                 <div className="container-food">
-                    <Menu icons={this.state.icon}/>
+                    <Menu icons={this.state.icon} />
                 </div>
             </section>
         );
