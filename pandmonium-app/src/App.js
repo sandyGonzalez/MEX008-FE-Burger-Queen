@@ -40,13 +40,11 @@ class App extends Component {
                 <Switch>
                     <Route exact path='/' component={Tables} />
                      <Route exact path={this.state.routes.route} component={WhitRouter} />
-                    {/*<Route exact path={this.state.routes.route} component={Prueba2}/>*/}
+                
                    
                     <Route exact path='/menu' component={Menu} />
                     {/* <Route exact path='/Extras' component={Extras} />
                     <Route exact path='/HistorialDePago' component={HistorialDePago} /> 
-                                               
-                    
                     
                     <Route exact path='/Menu' component={MenuComponent} />
                     <Route exact path='/Hamburguesas' component={Hamburgers} />
