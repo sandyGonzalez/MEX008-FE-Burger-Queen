@@ -20,8 +20,7 @@ import React, {Component} from 'react';
 
 // Home
 
-import Prueba from './views/prueba'
-import Prueba2 from './views/prueba2'
+import WhitRouter from './views/whitRouter'
 import RouteJSON from './components/Menu/icon.json';
 import Tables from './views/TableSelectorView/index';
 import Menu from './views/MenuView/index';
@@ -40,7 +39,7 @@ class App extends Component {
             <Router basename={window.location.pathname || ''}>
                 <Switch>
                     <Route exact path='/' component={Tables} />
-                     <Route exact path={this.state.routes.route} component={Prueba} />
+                     <Route exact path={this.state.routes.route} component={WhitRouter} />
                     {/*<Route exact path={this.state.routes.route} component={Prueba2}/>*/}
                    
                     <Route exact path='/menu' component={Menu} />
