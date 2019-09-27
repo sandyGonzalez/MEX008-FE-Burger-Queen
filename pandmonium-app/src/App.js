@@ -2,7 +2,7 @@ import React, {Component} from 'react';
 
 //Components/ Views
 import HistorialDePago from '../views/HistorialDePago.jsx';
-import Extras from '../views/Extras.jsx';
+//import Extras from '../views/Extras.jsx';
 
 //Subroutes
 import MenuComponent from '../views/MenuView';
@@ -30,7 +30,7 @@ class App extends Component {
             <Router basename={window.location.pathname || ''}>
                 <Switch>
                     <Route exact path='/' component={Tables} />
-                    <Route exact path='/Extras' component={Extras} />
+                  
                     <Route exact path='/HistorialDePago' component={HistorialDePago} />                                     
                     
                     
