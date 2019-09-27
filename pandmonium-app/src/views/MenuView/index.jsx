@@ -9,8 +9,10 @@ class MenuView extends Component {
     }
     render(){
         return(
-            <section>
-                <Menu icons={this.state.data}/>
+            <section className="container">
+                <div className="container-food">
+                    <Menu icons={this.state.data}/>
+                </div>
             </section>
         );
     }
