@@ -4,6 +4,7 @@ import React, {Component} from 'react';
 // import HistorialDePago from '../views/HistorialDePago.jsx';
 // import Extras from '../views/Extras.jsx';
 
+
 // //Subroutes
 // import MenuComponent from '../views/MenuView';
 
@@ -18,7 +19,7 @@ import React, {Component} from 'react';
 //import Page404 from './components/Page404'
 
 // Home
-import Tables from './views/MenuView/index';
+import Tables from './views/TableSelectorView/index';
 
 import { BrowserRouter as Router, Switch, Route} from 'react-router-dom';
 
