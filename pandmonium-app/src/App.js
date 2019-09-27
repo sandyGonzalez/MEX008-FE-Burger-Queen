@@ -4,17 +4,11 @@ import React, {Component} from 'react';
 // import HistorialDePago from '../views/HistorialDePago.jsx';
 // import Extras from '../views/Extras.jsx';
 
-<<<<<<< HEAD
-//Subroutes
-// import MenuComponent from '../views/MenuView';
 
-//Food
-=======
 // //Subroutes
 // import MenuComponent from '../views/MenuView';
 
 // //Food
->>>>>>> upstream/rama-pandmonium
 // import Hamburgers from '../views/subviews/Hamburgers';
 // import Pizzas from '../views/subviews/Pizzas';
 // import Hotdogs from '../views/subviews/Hotdogs';
@@ -25,7 +19,7 @@ import React, {Component} from 'react';
 //import Page404 from './components/Page404'
 
 // Home
-import Tables from './views/MenuView/index';
+import Tables from './views/TableSelectorView/index';
 
 import { BrowserRouter as Router, Switch, Route} from 'react-router-dom';
 
@@ -37,19 +31,6 @@ class App extends Component {
             <Router basename={window.location.pathname || ''}>
                 <Switch>
                     <Route exact path='/' component={Tables} />
-<<<<<<< HEAD
-                    {/* <Route exact path='/Extras' component={Extras} /> */}
-                    {/* <Route exact path='/HistorialDePago' component={HistorialDePago} />                                      */}
-                    
-                    
-                    {/* <Route exact path='/Menu' component={MenuComponent} /> */}
-                    {/* <Route exact path='/Hamburguesas' component={Hamburgers} /> */}
-                    {/* <Route exact path='/Pizzas' component={Pizzas} /> */}
-                    {/* <Route exact path='/Hotdogs' component={Hotdogs} /> */}
-                    {/* <Route exact path='/Ensaladas' component={Salads} /> */}
-                    {/* <Route exact path='/Bebidas' component={Drinks} /> */}
-                    {/* <Route exact path='/Postres' component={Desserts} />   */}
-=======
                     {/* <Route exact path='/Extras' component={Extras} />
                     <Route exact path='/HistorialDePago' component={HistorialDePago} />                                     
                     
@@ -61,7 +42,6 @@ class App extends Component {
                     <Route exact path='/Ensaladas' component={Salads} />
                     <Route exact path='/Bebidas' component={Drinks} />
                     <Route exact path='/Postres' component={Desserts} />   */}
->>>>>>> upstream/rama-pandmonium
                 </Switch>
             </Router>
         )
