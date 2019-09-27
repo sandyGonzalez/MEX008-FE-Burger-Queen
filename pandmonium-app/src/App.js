@@ -19,6 +19,9 @@ import React, {Component} from 'react';
 //import Page404 from './components/Page404'
 
 // Home
+
+import WhitRouter from './views/whitRouter'
+import RouteJSON from './components/Menu/icon.json';
 import Tables from './views/TableSelectorView/index';
 import Menu from './views/MenuView/index';
 
@@ -27,14 +30,22 @@ import { BrowserRouter as Router, Switch, Route} from 'react-router-dom';
 
 //Component
 class App extends Component {
+
+    state = {
+        routes : RouteJSON
+    }
     render(){
         return(
             <Router basename={window.location.pathname || ''}>
                 <Switch>
                     <Route exact path='/' component={Tables} />
+                     <Route exact path={this.state.routes.route} component={WhitRouter} />
+                    {/*<Route exact path={this.state.routes.route} component={Prueba2}/>*/}
+                   
                     <Route exact path='/menu' component={Menu} />
                     {/* <Route exact path='/Extras' component={Extras} />
-                    <Route exact path='/HistorialDePago' component={HistorialDePago} />                                     
+                    <Route exact path='/HistorialDePago' component={HistorialDePago} /> 
+                                               
                     
                     
                     <Route exact path='/Menu' component={MenuComponent} />
