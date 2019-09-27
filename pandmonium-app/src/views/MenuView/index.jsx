@@ -5,13 +5,13 @@ console.log(IconMenu);
 
 class MenuView extends Component {
     state = {
-        data : IconMenu
+        icon : IconMenu
     }
     render(){
         return(
             <section className="container">
                 <div className="container-food">
-                    <Menu icons={this.state.data}/>
+                    <Menu icons={this.state.icon}/>
                 </div>
             </section>
         );
