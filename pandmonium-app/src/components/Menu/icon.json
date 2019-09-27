@@ -2,11 +2,15 @@
     
         {
             "id": "burger",
-            "icon": "./assets/img/hamburger.png"
+            "icon": "./assets/img/hamburger.png",
+            "route": "/burgers",
+            "component": "prueba"
         },
         {
             "id": "hotdog",
-            "icon": "./assets/img/jocho.png"
+            "icon": "./assets/img/jocho.png",
+            "route": "/hotdogs",
+            "component": "prueba2"
         },
         {
             "id": "pizzas",
