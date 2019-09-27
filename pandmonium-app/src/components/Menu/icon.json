@@ -1,0 +1,28 @@
+[
+    
+        {
+            "id": "burger",
+            "icon": "./assets/img/hamburger.png"
+        },
+        {
+            "id": "hotdog",
+            "icon": "./assets/img/jocho.png"
+        },
+        {
+            "id": "pizzas",
+            "icon": "./assets/img/pizza.png"
+        },
+        {
+            "id" : "salad",
+            "icon":"./assets/img/salad.png"
+        },
+        {
+            "id": "dessert",
+            "icon":"./assets/img/postre.png"
+        },
+        {
+            "id": "drinks",
+            "icon":"./assets/img/bebida.png"
+        }
+        
+]
