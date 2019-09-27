@@ -24,6 +24,7 @@ import Prueba from './views/prueba'
 import Prueba2 from './views/prueba2'
 import RouteJSON from './components/Menu/icon.json';
 import Tables from './views/TableSelectorView/index';
+import Menu from './views/MenuView/index';
 
 import { BrowserRouter as Router, Switch, Route} from 'react-router-dom';
 
@@ -42,6 +43,7 @@ class App extends Component {
                      <Route exact path={this.state.routes.route} component={Prueba} />
                     {/*<Route exact path={this.state.routes.route} component={Prueba2}/>*/}
                    
+                    <Route exact path='/menu' component={Menu} />
                     {/* <Route exact path='/Extras' component={Extras} />
                     <Route exact path='/HistorialDePago' component={HistorialDePago} /> 
                                                
