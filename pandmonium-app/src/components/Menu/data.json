@@ -1,30 +1,95 @@
-[
-    Icon{
-        "burger": '../../assets/img/',
+{
+    "Icon":{
+        "burger": "../../assets/img/hamburger.png",
+        "hotdog": "../../assets/img/jocho.png",
+        "pizzas": "../../assets/img/pizza.png",
+        "salad": "../../assets/img/salad.png",
+        "dessert": "../../assets/img/postre.png",
+        "drinks": "../../assets/img/bebida.png",
+        "milkshake": "../../assets/img/malteada.png"
     },
-    Hamburgers{
+    "Menu":[
+        "Hamburgers":{
         "Gula":{
             "name": "Gula",
             "price-classic": "$50",
             "price-combo" : "$65",
-            "description" : "Medallón base de coya, cebolla, ajo y perejil marinados en especias picantes, topping de cebollita caramelizada y champiñones, lechuga italiana, jitomate y pepinillos.",
+            "description" : "Medallón base de soya, cebolla, ajo y perejil marinados en especias picantes, topping de cebollita caramelizada y champiñones, lechuga italiana, jitomate y pepinillos.",
             "optional-ingredients": {
                 "ingredient-1": "Jitomate",
                 "ingredient-2": "Germinado de alfalfa",
-                "ingredient-3": "Pepinillos",
+                "ingredient-3": "Pepinillos"
             }
         },
         "Malicia":{
-
+            "name": "Malicia",
+            "price-classic": "$50",
+            "price-combo" : "$65",
+            "description" : "Mezcla de vegetales con avena y Garam Masala (especias indúes), lechuga, jitomate, germinado de alfalfa y pepinillos.",
+            "optional-ingredients": {
+                "ingredient-1": "Jitomate",
+                "ingredient-2": "Germinado de alfalfa",
+                "ingredient-3": "Pepinillos"
+            }
+        },
+        "Soberbia":{
+            "name": "Soberbia",
+            "price-classic": "$50",
+            "price-combo" : "$65",
+            "description" : "Medallón de seitán (proteína vegetal de trigo), pimientos y perejil, topping de espinaca y pepita, mix de lechugas, jitomate y pepinillos.",
+            "optional-ingredients": {
+                "ingredient-1": "Jitomate",
+                "ingredient-2": "Germinado de alfalfa",
+                "ingredient-3": "Pepinillos"
+            } 
+        },
+        "Alma en Pena":{
+            "name": "Alma en Pena",
+            "price-classic": "$65",
+            "price-combo" : "$80",
+            "description" : "Medallón de espinaca, betabel y arroz, en cama de lechuga, con queso tipo americano, jitomate, pepinillo y cebolla al grill.",
+            "optional-ingredients": {
+                "ingredient-1": "Jitomate",
+                "ingredient-2": "Germinado de alfalfa",
+                "ingredient-3": "Pepinillos"
+            } 
+        },
+        "Encarnación":{
+            "name": "Encarnación",
+            "price-classic": "$65",
+            "price-combo" : "$80",
+            "description" : "Chorizo de PODEROSA en cama de lechuga, acompañado de salsa pico de gallo y chimichurri con veganesa extra.",
+            "optional-ingredients": {
+                "ingredient-1": "Jitomate",
+                "ingredient-2": "Germinado de alfalfa",
+                "ingredient-3": "Pepinillos"
+            } 
+        },
+        "Banana Limbo":{
+            "name": "Banana Limbo",
+            "price-classic": "$65",
+            "price-combo" : "$80",
+            "description" : "Croqueta de plátano macho empanizado con Panko, en cama de lechuga, queso americano, bañada con salsas de frijol y chile pasilla.",
+            "optional-ingredients": {
+                "ingredient-1": "Jitomate",
+                "ingredient-2": "Germinado de alfalfa",
+                "ingredient-3": "Pepinillos"
+            } 
         },
 
     },
-    Hotdogs{
-        "id": 1,
-        "title": "task two",
-        "description": "lorem ipsum",
-        "done" : false
-    },
+    "Hotdogs":{
+        "Gula":{
+            "name": "Gula",
+            "price-classic": "$50",
+            "price-combo" : "$65",
+            "description" : "Medallón base de soya, cebolla, ajo y perejil marinados en especias picantes, topping de cebollita caramelizada y champiñones, lechuga italiana, jitomate y pepinillos.",
+            "optional-ingredients": {
+                "ingredient-1": "Jitomate",
+                "ingredient-2": "Germinado de alfalfa",
+                "ingredient-3": "Pepinillos"
+            }
+        },
     {
         "id": 2,
         "title": "task three",
@@ -36,5 +101,5 @@
         "title": "task four",
         "description": "lorem ipsum",
         "done" : false
-    }
-]
+    }]
+}
