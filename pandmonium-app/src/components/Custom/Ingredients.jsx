@@ -4,7 +4,7 @@ import './style.scss';
 class Ingredients extends Component {
   render(){
     return(
-      <div>
+      <div class="ingredientsOptions">
         <p>Ingrediente 1</p>
         <p>Ingrediente 2</p>
         <p>Ingrediente 3</p>
