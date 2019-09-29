@@ -6,6 +6,7 @@ import WhitRouter from './views/whitRouter'
 import RouteJSON from './components/Menu/icon.json';
 import Tables from './views/TableSelectorView/index';
 import Menu from './views/MenuView/index';
+import CustomContainer from './components/Custom/CustomContainer';
 
 
 
@@ -22,7 +23,7 @@ class App extends Component {
         return(
             <Router basename={window.location.pathname || ''}>
                 <Switch>
-                    <Route exact path='/' component={Tables} />
+                    <Route exact path='/' component={CustomContainer} />
                      <Route exact path={this.state.routes.route} component={WhitRouter} />
                     {/*<Route exact path={this.state.routes.route} component={Prueba2}/>*/}
                    
