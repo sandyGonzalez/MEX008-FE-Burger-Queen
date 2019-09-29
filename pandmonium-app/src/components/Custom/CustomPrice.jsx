@@ -5,8 +5,10 @@ class CustomPrice extends Component {
   render(){
     return(
       <div className="price-custom">
-        <img src="#" alt="#"/>
-        <div>
+        <figure>
+        <img src='../../assets/img/hamburger.png' alt="#"/>
+        </figure>
+        <div className="option-price">
           <p>Opción 1</p>
           <p>Opción 2</p>
           <p>Opción 3</p>
