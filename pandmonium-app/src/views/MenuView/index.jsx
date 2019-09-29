@@ -1,12 +1,14 @@
 import React, {Component} from 'react';
 import IconMenu from '../../components/Menu/icon.json';
+import Data from '../../components/Menu/data.json';
 import Sidebar from '../../components/sidebar/Sidebar';
 import Menu from '../../components/Menu/index';
 import '../TableSelectorView/Style.css';
 
 class MenuView extends Component {
     state = {
-        icon : IconMenu
+        icon : IconMenu,
+        data : Data
     }
     render(){
         return(
