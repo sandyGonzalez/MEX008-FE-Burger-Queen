@@ -1,7 +1,7 @@
 import React, {Component} from 'react';
 import IconMenu from '../../components/Menu/icon.json';
 import DataMenu from '../../components/Menu/data.json';
-import MainContainer from '../../components/MainContainer';
+import Food from '../../components/Food/index';
 import Sidebar from '../../components/sidebar/Sidebar';
 
 class MenuItemView extends Component {
@@ -16,7 +16,7 @@ class MenuItemView extends Component {
                 <h1 className='title'></h1>
                 <main className="container">
                     <div className="container-food">
-                        <MainContainer icons={this.state.icon} name={this.state.data} />
+                        <Food icons={this.state.icon} name={this.state.data} />
                     </div>
                 </main>
             </section>
