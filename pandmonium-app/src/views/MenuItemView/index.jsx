@@ -1,7 +1,7 @@
 import React, {Component} from 'react';
 import IconMenu from '../../components/Menu/icon.json';
 import DataMenu from '../../components/Menu/data.json';
-import Food from '../../components/MainContainer/index';
+import Food from '../../components/Food/index';
 import Sidebar from '../../components/sidebar/Sidebar';
 
 class MenuItemView extends Component {
