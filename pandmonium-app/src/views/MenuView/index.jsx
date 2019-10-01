@@ -8,18 +8,18 @@ import '../TableSelectorView/Style.css';
 class MenuView extends Component {
     state = {
         icon : IconMenu,
-        data : Data
+
     }
     render(){
         return(
             <section>
-            <Sidebar/>
-            <h1 className="title">Menu</h1>
-            <main className="container">
-                <div className="container-food">
-                    <Menu icons={this.state.icon} />
-                </div>
-            </main>
+                <Sidebar/>
+                <h1 className="title">Menu</h1>
+                <main className="container">
+                    <div className="container-food">
+                        <Menu icons={this.state.icon}/>
+                    </div>
+                </main>
             </section>
         );
     }

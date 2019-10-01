@@ -1,6 +1,7 @@
 import React from 'react';
 import { withRouter } from 'react-router-dom';
-import MenuView from '../views/MenuView/index'
+import MenuView from '../views/MenuItemView/index'
+
 
 class WhitRouter extends React.Component {
     render(){
