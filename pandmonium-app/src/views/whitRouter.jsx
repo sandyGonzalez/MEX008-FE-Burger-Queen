@@ -1,6 +1,6 @@
 import React from 'react';
 import { withRouter } from 'react-router-dom';
-import MenuView from '../views/MenuItemView/index'
+import MenuView from '../views/MenuView/index'
 
 
 class WhitRouter extends React.Component {
@@ -15,12 +15,14 @@ class WhitRouter extends React.Component {
                 return (<p>hotdogs</p>)
             case '/pizzas':
                 return(<p>pizzas</p>)
-            case '/salads':
+            case '/ensaladas':
                 return(<p>salads</p>)
-            case '/desserts':
+            case '/postres':
                 return(<p>desserts</p>)
-            case '/drinks':
+            case '/sodas':
                 return(<p>drinks</p>)
+            case '/malteadas':
+                return(<p>malteadas</p>)
             default:
                 return (<p>404</p>) 
         }
