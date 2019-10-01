@@ -14,7 +14,9 @@ class OrderCarContainer extends Component{
             <PayOrder/>
             <Orders/> 
             <AddNotes/> 
-            <button>Mandar a Cocina</button>
+            <div className="buttonOrder">
+                <button>Mandar a cocina</button>
+            </div>
             </div>
             )
         }
