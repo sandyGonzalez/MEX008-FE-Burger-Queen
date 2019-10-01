@@ -7,8 +7,13 @@ class Orders extends Component{
             <div>
             <h4>Pedidos</h4>
             <imput type = "text" />
-            <img src="" alt="icono para desplegar"/>
-            <img src="" alt="icono de bote de basura"/>
+            <figure>
+             <img src="" alt="icono para desplegar"/>
+            </figure>
+            <figure>
+             <img src="" alt="icono bote de basura"/>
+            </figure>
+            
             </div>
         );
     }
