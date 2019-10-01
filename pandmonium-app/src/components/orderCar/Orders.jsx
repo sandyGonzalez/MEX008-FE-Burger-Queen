@@ -6,7 +6,7 @@ class Orders extends Component{
         return(
             <div>
             <h4>Pedidos</h4>
-            <imput type = "text" /> //En este imput debería llamarse lo que hay en el pedido.
+            <imput type = "text" />
             <img src="" alt="icono para desplegar"/>
             <img src="" alt="icono de bote de basura"/>
             </div>
