@@ -5,7 +5,7 @@ import React, {Component} from 'react';
 import WhitRouter from './views/whitRouter'
 import RouteJSON from './components/Menu/icon.json';
 import Tables from './views/TableSelectorView/index';
-import Menu from './views/MenuView/index';
+import Menu from './views/MenuItemView/index';
 
 
 
