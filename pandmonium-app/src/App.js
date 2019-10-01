@@ -28,6 +28,7 @@ class App extends Component {
                    
                     <Route exact path='/menu' component={Menu} />
 
+
                 </Switch>
             </Router>
         )
