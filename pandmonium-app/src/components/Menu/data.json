@@ -1,9 +1,9 @@
 [
     
-    {
-        "Hamburgers":[{
-            "Gula":{
+    
+            {
                 "name": "Gula",
+                "type": "hamburguesas",
                 "price-classic": "$50",
                 "price-combo" : "$65",
                 "description" : "Medallón base de soya, cebolla, ajo y perejil marinados en especias picantes, topping de cebollita caramelizada y champiñones, lechuga italiana, jitomate y pepinillos.",
@@ -13,8 +13,9 @@
                     "ingredient-3": "Pepinillos"
                 }
             },
-            "Malicia":{
+            {
                 "name": "Malicia",
+                "type": "hamburguesas",
                 "price-classic": "$50",
                 "price-combo" : "$65",
                 "description" : "Mezcla de vegetales con avena y Garam Masala (especias indúes), lechuga, jitomate, germinado de alfalfa y pepinillos.",
@@ -24,8 +25,9 @@
                     "ingredient-3": "Pepinillos"
                 }
             },
-            "Soberbia":{
+            {
                 "name": "Soberbia",
+                "type": "hamburguesas",
                 "price-classic": "$50",
                 "price-combo" : "$65",
                 "description" : "Medallón de seitán (proteína vegetal de trigo), pimientos y perejil, topping de espinaca y pepita, mix de lechugas, jitomate y pepinillos.",
@@ -35,8 +37,9 @@
                     "ingredient-3": "Pepinillos"
                 } 
             },
-            "Alma en Pena":{
+            {
                 "name": "Alma en Pena",
+                "type": "hamburguesas",
                 "price-classic": "$65",
                 "price-combo" : "$80",
                 "description" : "Medallón de espinaca, betabel y arroz, en cama de lechuga, con queso tipo americano, jitomate, pepinillo y cebolla al grill.",
@@ -46,8 +49,9 @@
                     "ingredient-3": "Pepinillos"
                 } 
             },
-            "Encarnación":{
+            {
                 "name": "Encarnación",
+                "type": "hamburguesas",
                 "price-classic": "$65",
                 "price-combo" : "$80",
                 "description" : "Chorizo de PODEROSA en cama de lechuga, acompañado de salsa pico de gallo y chimichurri con veganesa extra.",
@@ -57,8 +61,9 @@
                     "ingredient-3": "Pepinillos"
                 } 
             },
-            "Banana Limbo":{
+            {
                 "name": "Banana Limbo",
+                "type": "hamburguesas",
                 "price-classic": "$65",
                 "price-combo" : "$80",
                 "description" : "Croqueta de plátano macho empanizado con Panko, en cama de lechuga, queso americano, bañada con salsas de frijol y chile pasilla.",
@@ -67,11 +72,10 @@
                     "ingredient-2": "Germinado de alfalfa",
                     "ingredient-3": "Pepinillos"
                 } 
-            }
-        }]},
-        {"Hotdogs":[{
-            "Jochoslaw":{
+            },
+            {
                 "name": "Jochoslaw",
+                "type": "hotdogs",
                 "price-classic": "$50",
                 "price-combo" : "$65",
                 "description" : "Salchicha de maíz y trigo en pan artesanal, ensalada coleslaw, jitomate, pepinillos y cebolla caramelizada.",
@@ -80,8 +84,9 @@
                     "ingredient-2": "Cebolla caramelizada"
                 }
             },
-            "Xoloescuintle":{
+            {
                 "name": "Xoloescuintle",
+                "type": "hotdogs",
                 "price-classic": "$65",
                 "price-combo" : "$80",
                 "description" : "Salchicha de maíz y trigo en pan artesanal, cama de frijoles, pico de gallo, juliana de tortilla y flor de jamaica crocante.",
@@ -90,8 +95,9 @@
                     "ingredient-2": "Cebolla caramelizada"
                 }
             },
-            "Pit Bull":{
+            {
                 "name": "Pit Bull",
+                "type": "hotdogs",
                 "price-classic": "$65",
                 "price-combo" : "$80",
                 "description" : "Salchicha de maíz y trigo barnizada con salsa BBQ en pan artesanal, cama de frijoles, guacamole. jitomate, pepinillos",
@@ -100,9 +106,10 @@
                     "ingredient-2": "Cebolla caramelizada"
                 } 
             },
-            "Hachiko (Akita Inu)":{
+            {
                 "name": "Hachiko (Akita Inu)",
                 "price-classic": "$70",
+                "type": "hotdogs",
                 "price-combo" : "$85",
                 "description" : "Salchicha de tofu, espinaca y hongos cremini a la plancha, alga nori, salsa agridulce y ajonjolí.",
                 "optional-ingredients": {
@@ -110,8 +117,9 @@
                     "ingredient-2": "Cebolla caramelizada"
                 } 
             },
-            "Pastor Aleman":{
+            {
                 "name": "Pastor Aleman",
+                "type": "hotdogs",
                 "price-classic": "$80",
                 "price-combo" : "$95",
                 "description" : "Salchicha tipo alemana en pan artesanal, chucrut, cebolla asada, crema ácida y pepinillos.",
@@ -120,10 +128,10 @@
                     "ingredient-2": "Cebolla caramelizada"
                 } 
             }
-        }]},
-        {"Pizzas":[{
-            "Chaneque":{
+,
+            {
                 "name": "Chaneque",
+                "type": "pizzas",
                 "medium-size": "$150",
                 "big-size" : "$180",
                 "familiar-size" : "$210",
@@ -138,8 +146,9 @@
                     "ingredient-7": "Totopos"
                 } 
             },
-            "Sodoma":{
+            {
                 "name": "Sodoma",
+                "type": "pizzas",
                 "medium-size": "$130",
                 "big-size" : "$160",
                 "familiar-size" : "$190",
@@ -150,8 +159,9 @@
                     "ingredient-3": "Cebolla morada"
                 } 
             },
-            "Lujuria":{
+            {
                 "name": "Lujuria",
+                "type": "pizzas",
                 "medium-size": "$150",
                 "big-size" : "$180",
                 "familiar-size" : "$210",
@@ -161,8 +171,9 @@
                     "ingredient-2": "Perejil fresco"
                 } 
             },
-            "Ángel Caido":{
+            {
                 "name": "Ángel Caido",
+                "type": "pizzas",
                 "medium-size": "$130",
                 "big-size" : "$160",
                 "familiar-size" : "$190",
@@ -172,8 +183,9 @@
                     "ingredient-2": "Elotitos"
                 } 
             },
-            "Purgatorio":{
+            {
                 "name": "Purgatorio",
+                "type": "pizzas",
                 "medium-size": "$150",
                 "big-size" : "$180",
                 "familiar-size" : "$210",
@@ -183,8 +195,9 @@
                     "ingredient-2": "Elotitos"
                 } 
             },
-            "Tiki-Hawaiana":{
+            {
                 "name": "Tiki-Hawaina",
+                "type": "pizzas",
                 "medium-size": "$140",
                 "big-size" : "$170",
                 "familiar-size" : "$200",
@@ -194,107 +207,119 @@
                     "ingredient-2": "Hojuelas de pimiento"
                 } 
             },
-            "Margarita":{
-                "name": "Margarita"
+            {
+                "name": "Margarita",
+                "type": "pizzas"
             }        
-        }]},
-        {"Salads":[{
-            "Delirium":{
-                "name": "Delirium"
+,
+            {
+                "name": "Delirium",
+                "type": "ensaladas"
             },
-            "Paraiso perdido":{
-                "name": "Paraiso perdido"
+            {
+                "name": "Paraiso perdido",
+                "type": "ensaladas"
             }
-        }]},
-        {"Desserts":[{
-            "Mousse":{
+            ,
+            {
                 "name": "Mousse",
+                "type": "postres",
                 "price": "$30",
                 "description": "Mousse de tofu y limón, MIx de semillas y dátiles."
             },
-            "Vegatina":{
+            {
                 "name": "Vegatina",
+                "type": "postres",
                 "price": "$25",
                 "description": "Gelatina vegetal base agar-agar."
             },
-            "Hell girl":{
+            {
                 "name": "Hell girl",
+                "type": "postres",
                 "price": "$50",
                 "description": "Canasta de galleta con helado del día."
             },
-            "Pan dulce":{
+            {
                 "name": "Pan dulce",
+                "type": "postres",
                 "price": "$15"
             }
-        }]},
-        {"Drinks":[{
-            "Malteadas":{
-                "Fresa":{
-                    "name": "Fresa",
-                    "price": "$50",
-                    "description": "Crema de coco, plátano y aguacate."
-                },
-                "Chocomenta": {
-                    "name": "Chocomenta",
-                    "price": "$50",
-                    "description": "Crema de coco, plátano y aguacate."
-                },
-                "Mazapán": {
-                    "name": "Mazapán",
-                    "price": "$50",
-                    "description": "Crema de coco, plátano y aguacate."
-                }
+,
+            
+            {
+                "name": "Fresa",
+                "type": "malteadas",
+                "price": "$50",
+                "description": "Crema de coco, plátano y aguacate."
             },
-            "Sodas italianas":{
-                "Piña coco":{
-                    "name": "Piña coco",
-                    "price": "$60"
-                },
-                "Fresa y albahaca":{
-                    "name": "Fresa albahaca",
-                    "price": "$60"
-                },
-                "Manzana verde":{
-                    "name": "Manzana verde",
-                    "price": "$60"
-                },
-                "Maracuyá":{
-                    "name": "Maracuyá",
-                    "price": "$60"
-                },
-                "Limón y jicama":{
-                    "name": "Limón y jicama",
-                    "price": "$60"
-                },
-                "Mango":{
-                    "name": "Mango",
-                    "price": "$60"
-                }
+            {
+                "name": "Chocomenta",
+                "type": "malteadas",
+                "price": "$50",
+                "description": "Crema de coco, plátano y aguacate."
+            },
+            {
+                "name": "Mazapán",
+                "type": "malteadas",
+                "price": "$50",
+                "description": "Crema de coco, plátano y aguacate."
+            },
+            {
+                "name": "Piña coco",
+                "price": "$60",
+                "type": "sodas"
+            },
+            {
+                "name": "Fresa albahaca",
+                "price": "$60",
+                "type": "sodas"
+            },
+            {
+                "name": "Manzana verde",
+                "price": "$60",
+                "type": "sodas"
+            },
+            {
+                "name": "Maracuyá",
+                "price": "$60",
+                "type": "sodas"
+            },
+            {
+                "name": "Limón y jicama",
+                "price": "$60",
+                "type": "sodas"
+            },
+            {
+                "name": "Mango",
+                "price": "$60",
+                "type": "sodas"
             }
-        }]},
-        {"Extras":[{
-            "Papas gajo":{
+        ,
+            {
                 "name": "Papas gajo",
                 "price": "$50",
+                "type": "extra",
                 "description": "Bañadas con queso y acompañadas de salsa buffalo."
             },
-            "Alitas Diablo":{
+            {
                 "name": "Alitas Diablo",
-                "price": "$60" 
+                "price": "$60",
+                "type": "extra" 
             },
-            "Vuélvela hawaiana":{
+            {
                 "name": "Vuélvela hawaiana",
                 "price": "$20",
+                "type": "extra",
                 "description": "Agrega jamón y piña a tu hamburguesa."    
             },
-            "Queso tipo americano":{
+            {
                 "name": "Queso tipo americano",
-                "price": "$15" 
+                "price": "$15",
+                "type": "extra" 
             },
-            "Queso de papa":{
+            {
                 "name": "Queso de papa",
-                "price": "$10"
+                "price": "$10",
+                "type": "extra"
             }
-        }]
-    }
 ]
