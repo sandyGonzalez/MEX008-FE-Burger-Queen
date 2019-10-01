@@ -1,4 +1,5 @@
 import React,{Component} from 'react';
+import './index.scss';
 
 
 class PayOrder extends Component{
@@ -6,8 +7,14 @@ class PayOrder extends Component{
     render(){
         return(
             <div>
-            <h4>Pagar Orden</h4> 
-            <button>Boton</button>
+                <div className = "option-price">
+                <h4>Pagar Orden</h4> 
+                </div>
+                <div className = "status-table">
+                    <p className = "status-table">Ocupado</p>
+                    <button className = "btn-status"></button>
+                </div>
+            
             </div>
         )
     }
