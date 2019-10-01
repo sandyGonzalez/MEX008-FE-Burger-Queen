@@ -1,7 +1,7 @@
 import React from 'react';
 import { withRouter } from 'react-router-dom';
-import Prueba2 from '../views/prueba2';
 import MenuView from '../views/MenuItemView/index'
+
 
 class WhitRouter extends React.Component {
     render(){
@@ -10,7 +10,7 @@ class WhitRouter extends React.Component {
             case '/Menu':
                 return(<MenuView/>)
             case '/burgers':
-                return (<Prueba2/>)
+                return (<p>burgers</p>)
             case '/hotdogs':
                 return (<p>hotdogs</p>)
             case '/pizzas':
@@ -21,11 +21,10 @@ class WhitRouter extends React.Component {
                 return(<p>desserts</p>)
             case '/drinks':
                 return(<p>drinks</p>)
-           /*  default:
-                return (<p>404</p>) */
+            default:
+                return (<p>404</p>) 
         }
-        /*return(            
-        )*/
+        
     }
 }
 

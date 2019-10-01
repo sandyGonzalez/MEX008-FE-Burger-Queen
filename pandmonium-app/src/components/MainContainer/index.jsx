@@ -16,3 +16,4 @@ class Food extends Component {
             <FoodItem item={element} icons={this.props.icons}/>)   
         ); */
 export default Food
+

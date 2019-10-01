@@ -1,5 +1,6 @@
 import React, {Component} from 'react';
 import IconMenu from '../../components/Menu/icon.json';
+import Data from '../../components/Menu/data.json';
 import Sidebar from '../../components/sidebar/Sidebar';
 import Menu from '../../components/Menu/index';
 import '../TableSelectorView/Style.css';
@@ -7,6 +8,7 @@ import '../TableSelectorView/Style.css';
 class MenuView extends Component {
     state = {
         icon : IconMenu,
+
     }
     render(){
         return(
