@@ -1,6 +1,13 @@
 import React from 'react';
 import { withRouter } from 'react-router-dom';
-import MenuView from '../views/MenuView/index'
+import MenuView from '../views/MenuView/index';
+import BurgerView from '../views/MenuItemView/burgerview';
+import HotdogView from './MenuItemView/hotdogview.jsx';
+import PizzaView from '../views/MenuItemView/pizzaview';
+import SaladView from '../views/MenuItemView/saladview';
+import DessertView from '../views/MenuItemView/dessertview';
+// import SodaView from '../views/MenuItemView/sodaview';
+// import MilkshakeView from '../views/MenuItemView/milkshakeview';
 
 
 class WhitRouter extends React.Component {
@@ -10,19 +17,19 @@ class WhitRouter extends React.Component {
             case '/Menu':
                 return(<MenuView/>)
             case '/burgers':
-                return (<p>burgers</p>)
+                return (<BurgerView/>)
             case '/hotdogs':
-                return (<p>hotdogs</p>)
+                 return (<HotdogView />)
             case '/pizzas':
-                return(<p>pizzas</p>)
+                 return(<PizzaView/>)
             case '/ensaladas':
-                return(<p>salads</p>)
+                 return(<SaladView/>)
             case '/postres':
-                return(<p>desserts</p>)
-            case '/sodas':
-                return(<p>drinks</p>)
-            case '/malteadas':
-                return(<p>malteadas</p>)
+                 return(<DessertView/>)
+            // case '/sodas':
+            //     return(<SodaView />)
+            // case '/malteadas':
+            //     return(<MilkshakeView />)
             default:
                 return (<p>404</p>) 
         }
