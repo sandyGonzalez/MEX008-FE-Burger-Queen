@@ -9,7 +9,6 @@ import Menu from './views/MenuView/index';
 // import CustomContainer from './components/Custom/CustomContainer';
 
 
-
 import { BrowserRouter as Router, Switch, Route} from 'react-router-dom';
 
 
