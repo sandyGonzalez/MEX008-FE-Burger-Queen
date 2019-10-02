@@ -8,7 +8,6 @@ import Tables from './views/TableSelectorView/index';
 import Menu from './views/MenuItemView/index';
 
 
-
 import { BrowserRouter as Router, Switch, Route} from 'react-router-dom';
 
 
