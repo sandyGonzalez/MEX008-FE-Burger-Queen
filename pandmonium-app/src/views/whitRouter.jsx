@@ -1,8 +1,6 @@
 import React from 'react';
 import { withRouter } from 'react-router-dom';
 import MenuView from '../views/MenuView/index';
-import OrderCarContainer from '../components/orderCar/orderCarContainer'
-
 
 class WhitRouter extends React.Component {
     render(){
@@ -11,7 +9,7 @@ class WhitRouter extends React.Component {
             case '/Menu':
                 return(<MenuView/>)
             case '/burgers':
-                return (<OrderCarContainer/>)
+                return (<p><burgers/p>)
             case '/hotdogs':
                 return (<p>hotdogs</p>)
             case '/pizzas':
