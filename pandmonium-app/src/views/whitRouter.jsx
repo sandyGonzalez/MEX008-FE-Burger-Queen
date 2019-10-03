@@ -11,6 +11,7 @@ import Tables from '../views/TableSelectorView/index'
 import CustomView from '../views/CustonViews/index';
 // import SodaView from '../views/MenuItemView/sodaview';
 // import MilkshakeView from '../views/MenuItemView/milkshakeview';
+import Todos from '../firebase/todos';
 
 
 class WhitRouter extends React.Component {
@@ -19,6 +20,8 @@ class WhitRouter extends React.Component {
         switch(this.props.location.pathname){
             case '/':
                 return(<Login/>)
+            case '/tables':
+                return(<Tables/>)    
             case '/Menu':
                 return(<MenuView/>);
             case '/burgers':
@@ -39,6 +42,7 @@ class WhitRouter extends React.Component {
             //     return(<SodaView />)
             // case '/malteadas':
             //     return(<MilkshakeView />)
+          
             default:
                 return (<p>404</p>) 
         }
