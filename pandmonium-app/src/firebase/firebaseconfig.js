@@ -1,8 +1,5 @@
-// import FirebaseApp from 'firebase/app';
+import firebaseApp from 'firebase/app';
 import 'firebase/auth';
-import firebase from 'firebase';
-
-
 
 // Firebase Configuration
 const firebaseConfig = {
@@ -15,16 +12,18 @@ const firebaseConfig = {
     appId: "1:888100298652:web:c51990f0e859f374327259"
   };
 
-  // class Firebase {
-  //   constructor() {
-  //     FirebaseApp.initializeApp(firebaseConfig);
-  //   }
-  // };
+  const createFirebaseApp = () => {
+    firebaseApp.initializeApp(firebaseConfig)
+    firebaseApp.auth().onAuthStateChanged(user => {
+      if (user){
+        console.log('user connected');
+      }else{
+        console.log('No user connected');
+      }
+    })
+    return firebaseApp
+  }
 
-  // export default Firebase;
-  export const firebaseApp = firebase.initializeApp(firebaseConfig);
-  export const db = firebase.firestore();
 
-// Firebase Auth
+  export default createFirebaseApp;
 
-//Firebase Storage
