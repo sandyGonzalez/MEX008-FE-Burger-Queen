@@ -6,7 +6,6 @@ import * as serviceWorker from './serviceWorker.js';
 
 //import './styles/index.css';
 
-// ReactDOM.render(<App />, document.getElementById('root'));
 ReactDOM.render(<App />, document.getElementById('root'));
 
 
