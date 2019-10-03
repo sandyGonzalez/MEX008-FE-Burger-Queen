@@ -8,6 +8,7 @@ import SaladView from '../views/MenuItemView/saladview';
 import DessertView from '../views/MenuItemView/dessertview';
 // import SodaView from '../views/MenuItemView/sodaview';
 // import MilkshakeView from '../views/MenuItemView/milkshakeview';
+import Todos from '../firebase/todos';
 
 
 class WhitRouter extends React.Component {
@@ -26,10 +27,11 @@ class WhitRouter extends React.Component {
                  return(<SaladView/>)
             case '/postres':
                  return(<DessertView/>)
-            // case '/sodas':
-            //     return(<SodaView />)
+             case '/soda':
+               return(<Todos />)
             // case '/malteadas':
             //     return(<MilkshakeView />)
+          
             default:
                 return (<p>404</p>) 
         }
