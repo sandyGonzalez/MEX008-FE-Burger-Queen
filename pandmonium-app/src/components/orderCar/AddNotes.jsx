@@ -10,8 +10,7 @@ class AddNotes extends Component{
             <div>
             <h5>Añadir Notas extras</h5>
             <figure>
-                <button className = "btn-add" <img className = "img-add" src={ImgAgregar} alt="icono para agregar notas"/></button>>
-                    
+                <button className = "btn-add"> <img className = "img-add" src={ImgAgregar} alt="icono para agregar notas"/> </button>
             </figure>
             </div>
             
