@@ -9,7 +9,7 @@ class WhitRouter extends React.Component {
             case '/Menu':
                 return(<MenuView/>)
             case '/burgers':
-                return (<p><burgers/p>)
+                return (<p>Buergers</p>)
             case '/hotdogs':
                 return (<p>hotdogs</p>)
             case '/pizzas':
