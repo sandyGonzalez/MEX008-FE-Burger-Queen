@@ -8,7 +8,6 @@ import Tables from './views/TableSelectorView/index';
 import Menu from './views/MenuItemView/index';
 
 
-
 import { BrowserRouter as Router, Switch, Route} from 'react-router-dom';
 
 
@@ -27,6 +26,7 @@ class App extends Component {
                     {/*<Route exact path={this.state.routes.route} component={Prueba2}/>*/}
                    
                     <Route exact path='/menu' component={Menu} />
+
 
                 </Switch>
             </Router>
