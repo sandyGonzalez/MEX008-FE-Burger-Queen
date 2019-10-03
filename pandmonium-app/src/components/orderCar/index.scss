@@ -42,7 +42,7 @@
     color: white;  
     font-family: 'Reem Kufi', sans-serif; 
 }
-btn-add{
+.btn-add{
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -64,4 +64,10 @@ figure {
     text-align:center;
     /* box-shadow: 0px 2px 8px 7px rgba(77, 74, 74, 0.2); */
   
+  }
+  .img-add{
+    display: flex;
+    padding-bottom: 0.3rem;
+    margin: 0 auto;
+    width: 60%;
   }
