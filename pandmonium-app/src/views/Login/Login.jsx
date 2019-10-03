@@ -1,9 +1,9 @@
 import React, { Fragment } from 'react';
 import { Link } from 'react-router-dom'; 
-import withFirebaseAuth from 'react-with-firebase-auth'
-import * as firebase from 'firebase/app';
+// import withFirebaseAuth from 'react-with-firebase-auth'
+// import * as firebase from 'firebase/app';
 import 'firebase/auth';
-import { firebaseApp } from '../../firebase/index';
+// import { Firebase } from '../../firebase/index';
 
 //Compounds
 import InputMail from '../../components/Login/compounds/InputMail';
@@ -71,12 +71,14 @@ class Login extends React.Component{
   }
 }
 
-const firebaseAppAuth = firebaseApp.auth();
-const providers = {
-  googleProvider: new firebase.auth.GoogleAuthProvider()
-}
+// const Firebase = firebaseApp.auth();
+// const providers = {
+//   googleProvider: new firebase.auth.GoogleAuthProvider()
+// }
 
-export default withFirebaseAuth ({
-  providers,
-  firebaseAppAuth
-})(Login);
+// export default withFirebaseAuth ({
+//   providers,
+//   Firebase,
+// })(Login);
+
+export default Login;

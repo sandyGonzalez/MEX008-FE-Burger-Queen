@@ -1,6 +1,6 @@
-// import FirebaseApp from 'firebase/app';
-import 'firebase/auth';
-import firebase from 'firebase';
+import FirebaseApp from 'firebase/app';
+// import 'firebase/auth';
+// import firebase from 'firebase';
 
 
 
@@ -15,15 +15,15 @@ const firebaseConfig = {
     appId: "1:888100298652:web:c51990f0e859f374327259"
   };
 
-  // class Firebase {
-  //   constructor() {
-  //     FirebaseApp.initializeApp(firebaseConfig);
-  //   }
-  // };
+  class Firebase {
+    constructor() {
+      FirebaseApp.initializeApp(firebaseConfig);
+    }
+  };
 
-  // export default Firebase;
-  export const firebaseApp = firebase.initializeApp(firebaseConfig);
-  export const db = firebase.firestore();
+  export default Firebase;
+  // export const firebaseApp = firebase.initializeApp(firebaseConfig);
+  // export const db = firebase.firestore();
 
 // Firebase Auth
 
