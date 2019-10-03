@@ -11,6 +11,7 @@ class CustomContainer extends Component {
     this.setState({ show: true });
   };
 
+
   hideModal = () => {
     this.setState({ show: false });
   }
