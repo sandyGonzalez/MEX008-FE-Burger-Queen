@@ -8,6 +8,7 @@ class Orders extends Component{
         return(
             <div>
             <h4>Pedidos</h4>
+            <div  className = "orderContainer">
             <imput type = "text" />
             <figure>
                 <button className= "btn-add">
@@ -19,8 +20,7 @@ class Orders extends Component{
                 <img className = "img-add"src={imgTrash} alt="icono para desplegar"/>
                 </button>
             </figure>
-          
-            
+            </div>
             </div>
         );
     }
