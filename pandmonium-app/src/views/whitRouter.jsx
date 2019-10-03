@@ -20,6 +20,8 @@ class WhitRouter extends React.Component {
         switch(this.props.location.pathname){
             case '/':
                 return(<Login/>)
+            case '/tables':
+                return(<Tables/>)    
             case '/Menu':
                 return(<MenuView/>);
             case '/burgers':
