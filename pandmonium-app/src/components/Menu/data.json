@@ -3,6 +3,7 @@
     
             {
                 "name": "Gula",
+                "route": "/gula",
                 "type": "hamburguesas",
                 "price-classic": "$50",
                 "price-combo" : "$65",
@@ -10,6 +11,7 @@
             },
             {
                 "name": "Malicia",
+                "route": "/malicia",
                 "type": "hamburguesas",
                 "price-classic": "$50",
                 "price-combo" : "$65",
@@ -17,6 +19,7 @@
             },
             {
                 "name": "Soberbia",
+                "route": "/soberbia",
                 "type": "hamburguesas",
                 "price-classic": "$50",
                 "price-combo" : "$65",
@@ -24,6 +27,7 @@
             },
             {
                 "name": "Alma en Pena",
+                "route": "/alma-en-pena",
                 "type": "hamburguesas",
                 "price-classic": "$65",
                 "price-combo" : "$80",
@@ -31,6 +35,7 @@
             },
             {
                 "name": "Encarnación",
+                "route": "/encarnacion",
                 "type": "hamburguesas",
                 "price-classic": "$65",
                 "price-combo" : "$80",
@@ -38,6 +43,7 @@
             },
             {
                 "name": "Banana Limbo",
+                "route": "/banana-limbo",
                 "type": "hamburguesas",
                 "price-classic": "$65",
                 "price-combo" : "$80",
@@ -45,6 +51,7 @@
             },
             {
                 "name": "Jochoslaw",
+                "route": "/jochoslaw",
                 "type": "hotdogs",
                 "price-classic": "$50",
                 "price-combo" : "$65",
@@ -52,6 +59,7 @@
             },
             {
                 "name": "Xoloescuintle",
+                "route": "/xoloescuintle",
                 "type": "hotdogs",
                 "price-classic": "$65",
                 "price-combo" : "$80",
@@ -59,6 +67,7 @@
             },
             {
                 "name": "Pit Bull",
+                "route": "/pitbull",
                 "type": "hotdogs",
                 "price-classic": "$65",
                 "price-combo" : "$80",
@@ -66,6 +75,7 @@
             },
             {
                 "name": "Hachiko (Akita Inu)",
+                "route": "/hachiko",
                 "price-classic": "$70",
                 "type": "hotdogs",
                 "price-combo" : "$85",
@@ -73,6 +83,7 @@
             },
             {
                 "name": "Pastor Aleman",
+                "route": "/pastor-aleman",
                 "type": "hotdogs",
                 "price-classic": "$80",
                 "price-combo" : "$95",
@@ -81,6 +92,7 @@
 ,
             {
                 "name": "Chaneque",
+                "route": "/chaneque",
                 "type": "pizzas",
                 "medium-size": "$150",
                 "big-size" : "$180",
@@ -89,6 +101,7 @@
             },
             {
                 "name": "Sodoma",
+                "route": "/sodoma",
                 "type": "pizzas",
                 "medium-size": "$130",
                 "big-size" : "$160",
@@ -97,6 +110,7 @@
             },
             {
                 "name": "Lujuria",
+                "route": "/lujuria",
                 "type": "pizzas",
                 "medium-size": "$150",
                 "big-size" : "$180",
@@ -105,6 +119,7 @@
             },
             {
                 "name": "Ángel Caido",
+                "route": "/angel-caido",
                 "type": "pizzas",
                 "medium-size": "$130",
                 "big-size" : "$160",
@@ -113,6 +128,7 @@
             },
             {
                 "name": "Purgatorio",
+                "route": "/purgatorio",
                 "type": "pizzas",
                 "medium-size": "$150",
                 "big-size" : "$180",
@@ -121,6 +137,7 @@
             },
             {
                 "name": "Tiki-Hawaina",
+                "route": "/tiki-hawaiana",
                 "type": "pizzas",
                 "medium-size": "$140",
                 "big-size" : "$170",
@@ -129,38 +146,45 @@
             },
             {
                 "name": "Margarita",
+                "route": "/margarita",
                 "type": "pizzas"
             }        
 ,
             {
                 "name": "Delirium",
+                "route": "/delirium",
                 "type": "ensaladas"
             },
             {
                 "name": "Paraiso perdido",
+                "route": "/paraiso-perdido",
                 "type": "ensaladas"
             }
             ,
             {
                 "name": "Mousse",
+                "route": "/mousse",
                 "type": "postres",
                 "price": "$30",
                 "description": "Mousse de tofu y limón, MIx de semillas y dátiles."
             },
             {
                 "name": "Vegatina",
+                "route": "/vegatina",
                 "type": "postres",
                 "price": "$25",
                 "description": "Gelatina vegetal base agar-agar."
             },
             {
                 "name": "Hell girl",
+                "route": "/hell-girl",
                 "type": "postres",
                 "price": "$50",
                 "description": "Canasta de galleta con helado del día."
             },
             {
                 "name": "Pan dulce",
+                "route": "/pan-dulce",
                 "type": "postres",
                 "price": "$15"
             }
@@ -168,77 +192,91 @@
             
             {
                 "name": "Fresa",
+                "route": "/malteada-fresa",
                 "type": "malteadas",
                 "price": "$50",
                 "description": "Crema de coco, plátano y aguacate."
             },
             {
                 "name": "Chocomenta",
+                "route": "/malteada-chocomenta",
                 "type": "malteadas",
                 "price": "$50",
                 "description": "Crema de coco, plátano y aguacate."
             },
             {
                 "name": "Mazapán",
+                "route": "/malteada-mazapan",
                 "type": "malteadas",
                 "price": "$50",
                 "description": "Crema de coco, plátano y aguacate."
             },
             {
                 "name": "Piña coco",
+                "route": "/soda-piña-coco",
                 "price": "$60",
                 "type": "sodas"
             },
             {
                 "name": "Fresa albahaca",
+                "route": "/soda-fresa-albahaca",
                 "price": "$60",
                 "type": "sodas"
             },
             {
                 "name": "Manzana verde",
+                "route": "/soda-manzana-verde",
                 "price": "$60",
                 "type": "sodas"
             },
             {
                 "name": "Maracuyá",
+                "route": "/soda-maracuya",
                 "price": "$60",
                 "type": "sodas"
             },
             {
                 "name": "Limón y jicama",
+                "route": "/soda-limon-jicama",
                 "price": "$60",
                 "type": "sodas"
             },
             {
                 "name": "Mango",
+                "route": "/soda-mango",
                 "price": "$60",
                 "type": "sodas"
             }
         ,
             {
                 "name": "Papas gajo",
+                "route": "/papas-gajo",
                 "price": "$50",
                 "type": "extra",
                 "description": "Bañadas con queso y acompañadas de salsa buffalo."
             },
             {
                 "name": "Alitas Diablo",
+                "route": "/alitas-diablo",
                 "price": "$60",
                 "type": "extra" 
             },
             {
                 "name": "Vuélvela hawaiana",
+                "route": "/vuelvela-hawaiana",
                 "price": "$20",
                 "type": "extra",
                 "description": "Agrega jamón y piña a tu hamburguesa."    
             },
             {
                 "name": "Queso tipo americano",
+                "route": "/queso-americano",
                 "price": "$15",
                 "type": "extra" 
             },
             {
                 "name": "Queso de papa",
+                "route": "/queso-papa",
                 "price": "$10",
                 "type": "extra"
             }

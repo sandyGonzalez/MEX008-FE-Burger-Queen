@@ -6,6 +6,7 @@ import HotdogView from './MenuItemView/hotdogview.jsx';
 import PizzaView from '../views/MenuItemView/pizzaview';
 import SaladView from '../views/MenuItemView/saladview';
 import DessertView from '../views/MenuItemView/dessertview';
+import CustomView from '../views/CustonViews/index';
 // import SodaView from '../views/MenuItemView/sodaview';
 // import MilkshakeView from '../views/MenuItemView/milkshakeview';
 
@@ -15,17 +16,19 @@ class WhitRouter extends React.Component {
         console.log(this.props.location.pathname)
         switch(this.props.location.pathname){
             case '/Menu':
-                return(<MenuView/>)
+                return(<MenuView/>);
             case '/burgers':
-                return (<BurgerView/>)
+                return (<BurgerView/>);
             case '/hotdogs':
-                 return (<HotdogView />)
+                 return (<HotdogView />);
             case '/pizzas':
-                 return(<PizzaView/>)
+                 return(<PizzaView/>);
             case '/ensaladas':
-                 return(<SaladView/>)
+                 return(<SaladView/>);
             case '/postres':
-                 return(<DessertView/>)
+                 return(<DessertView/>);
+            case '/gula':
+                 return(<CustomView/>);
             // case '/sodas':
             //     return(<SodaView />)
             // case '/malteadas':
