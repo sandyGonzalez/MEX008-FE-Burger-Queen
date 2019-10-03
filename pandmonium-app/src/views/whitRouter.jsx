@@ -11,7 +11,7 @@ import Tables from '../views/TableSelectorView/index'
 import CustomView from '../views/CustonViews/index';
 // import SodaView from '../views/MenuItemView/sodaview';
 // import MilkshakeView from '../views/MenuItemView/milkshakeview';
-import Todos from '../firebase/todos';
+
 
 
 class WhitRouter extends React.Component {
