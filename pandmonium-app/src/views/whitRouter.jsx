@@ -33,7 +33,7 @@ class WhitRouter extends React.Component {
                  return(<DessertView/>)
             case '/tables':
                  return(<Tables/>)
-                 return(<DessertView/>);
+                /*  return(<DessertView/>); */
             case '/gula':
                  return(<CustomView/>);
             // case '/sodas':
