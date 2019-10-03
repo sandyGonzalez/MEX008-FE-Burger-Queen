@@ -13,6 +13,7 @@ import CustomView from '../views/CustonViews/index';
 // import MilkshakeView from '../views/MenuItemView/milkshakeview';
 import Todos from '../firebase/todos';
 
+
 class WhitRouter extends React.Component {
    render(){
        console.log(this.props.location.pathname)
