@@ -49,5 +49,4 @@ class WhitRouter extends React.Component {
         
     }
 }
-
 export default withRouter(WhitRouter);
